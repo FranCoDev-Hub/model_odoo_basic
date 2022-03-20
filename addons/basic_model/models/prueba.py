@@ -1,7 +1,3 @@
-import string
-from typing_extensions import Required
-
-from numpy import require
 from odoo import models, fields
 
 

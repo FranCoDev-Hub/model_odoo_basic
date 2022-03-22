@@ -8,11 +8,13 @@
     'category': 'Installer',
     'version': '1.0',
     'depends': [
-        'base'
+        'base',
+        'hr'
     ],
     'data': [
         'security/ir.model.access.csv',
         'views/prueba_views.xml',
+        'views/hr_employee_views.xml',
         ],
     'installable': True,
     'auto_install': False,
